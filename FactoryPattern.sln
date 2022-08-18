@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{07139D03-032B-42D8-AF70-DCBC697D73C5}"
+	ProjectSection(SolutionItems) = preProject
+		GroceryStore.php = GroceryStore.php
+		ORM.php = ORM.php
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4EE06B92-21DE-4AD8-B7B8-C265A31EB9CE}
+	EndGlobalSection
+EndGlobal
