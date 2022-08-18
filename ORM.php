@@ -67,9 +67,6 @@ class ORMFactory implements ORMFactoryInterface {
 }
 }
 
-$store = new MySQLORM;
-$store->DBConnection();
-
 $ormFactory = new ORMFactory;
 
 
@@ -84,7 +81,7 @@ $postgresORM->DBConnection();
 $postgresORM->DBRecord();
 $postgresORM->DBQueryBuilder();
 
-$postgresORM = $ormFactory->createORM('postgres');
+$postgresORM = $ormFactory->createORM('oracle');
 $postgresORM->DBConnection();
 $postgresORM->DBRecord();
 $postgresORM->DBQueryBuilder();
